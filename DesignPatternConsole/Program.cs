@@ -4,4 +4,3 @@ using SingletonPattern;
 
 Console.WriteLine(LazyIdGen.GetInstance().GetId());
 
-
