@@ -11,7 +11,6 @@
     <ProjectReference Include="..\..\BuilderPattern\BuilderPattern.csproj" />
     <ProjectReference Include="..\..\ProxyPattern\ProxyPattern.csproj" />
     <ProjectReference Include="..\..\SingletonPattern\SingletonPattern.csproj" />
-    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj" />
   </ItemGroup>
 
 </Project>
