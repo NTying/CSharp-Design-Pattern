@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using BridgePattern;
 using BuilderPattern;
 using FactoryPattern;
 using FactoryPattern.SimpleFactory;
@@ -23,3 +24,6 @@ Console.WriteLine(resourcePoolConfig);
 
 UserController userController = new UserControllerProxy(MetricUtils.getInstance());
 userController.login("tying", "123");
+
+IWeapon weapon = new Sword(new FlyingEnchantment());
+weapon.Wield();

@@ -8,9 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BuilderPattern\BuilderPattern.csproj" />
-    <ProjectReference Include="..\..\ProxyPattern\ProxyPattern.csproj" />
-    <ProjectReference Include="..\..\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj" />
+    <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj" />
+    <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
   </ItemGroup>
 
 </Project>
