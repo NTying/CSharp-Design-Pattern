@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj" />
     <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj" />
     <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj" />
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />

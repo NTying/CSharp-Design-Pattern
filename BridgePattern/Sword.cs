@@ -1,41 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BridgePattern
+﻿namespace BridgePattern
 {
     public class Sword : IWeapon
     {
-        private readonly IEnchantment _enhancement;
+        private readonly IEnchantment _enchantment;
 
-        public Sword(IEnchantment enhancement)
+        public Sword(IEnchantment enchantment)
         {
-            _enhancement = enhancement;
+            _enchantment = enchantment;
         }
 
         public override IEnchantment GetEnhancement()
         {
-            return _enhancement;
+            return _enchantment;
         }
 
         public override void Swing()
         {
             Console.WriteLine("The sword is swinged");
-            _enhancement.Apply();
+            _enchantment.Apply();
         }
 
         public override void Unwield()
         {
             Console.WriteLine("The sword is unwielded");
-            _enhancement.OnDeactivate();
+            _enchantment.OnDeactivate();
         }
 
         public override void Wield()
         {
             Console.WriteLine("The sword is wielded");
-            _enhancement.OnActivate();
+            _enchantment.OnActivate();
         }
     }
 }
